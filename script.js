@@ -1,5 +1,5 @@
 console.log("hello gg");
-fetch('http://localhost:3000/year')
+fetch('https://whatyearisit-backend-one-smoky.vercel.app/year')
 	.then(response => response.json())
 	.then(data => {
         console.log("front end fetch");
